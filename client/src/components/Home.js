@@ -112,10 +112,10 @@ const Home = () => {
                         <thead>
                             <tr className="table-dark">
                                 <th scope="col">id</th>
-                                <th scope="col">Username</th>
-                                <th scope="col">email</th>
-                                <th scope="col">Job</th>
-                                <th scope="col">Number</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Date of birth</th>
+                                <th scope="col">Gender</th>
+                                <th scope="col">Salary</th>
                                 <th scope="col"></th>
                             </tr>
                         </thead>

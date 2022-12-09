@@ -22,7 +22,7 @@ const Home = () => {
 
     const getdata = async () => {
 
-        const res = await fetch("https://crudappreactjs.herokuapp.com/getdata", {
+        const res = await fetch("https://backend-ysun.onrender.com/getdata", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
@@ -48,7 +48,7 @@ const Home = () => {
 
     const deleteuser = async (id) => {
 
-        const res2 = await fetch(`https://crudappreactjs.herokuapp.com/deleteuser/${id}`, {
+        const res2 = await fetch(`https://backend-ysun.onrender.com/deleteuser/${id}`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json"
